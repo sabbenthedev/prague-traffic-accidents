@@ -1,0 +1,17 @@
+[project]
+name = "prague-traffic-accident"
+version = "0.1.0"
+description = "Pražské dopravní nehody"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "src"
