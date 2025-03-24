@@ -5,6 +5,7 @@
         "ms-python.debugpy", //! Python Debugger
         "ms-python.python", //TODO: Python
         "ms-python.vscode-pylance", //! Python Pylance
-        "tamasfe.even-better-toml" //? Even Better Toml
+        "tamasfe.even-better-toml", //? Even Better Toml
+        "ms-toolsai.jupyter" // Jupyter Notebook
     ]
 }
